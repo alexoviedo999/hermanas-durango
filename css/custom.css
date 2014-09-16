@@ -957,12 +957,12 @@ ul.social-links>li.pinterest-link:hover {
 	width:48.317948717948715%;
 }
 .roll {
-	position:absolute;
+	position: absolute;
 	font-size:30px;
 	width:100%;
 	margin:0px auto;
 	height:100%;
-	top:-87.0px;
+	top: 0px;
 	display:table-cell;
 	vertical-align:middle;	
 	background: #000;
@@ -1020,7 +1020,7 @@ ul.social-links>li.pinterest-link:hover {
 	margin:0px auto;
 	display:table-cell;
 	vertical-align:middle;
-	top:55%;
+	top: 45%;
 }
 .captionicons {
 	font-size:20px;
