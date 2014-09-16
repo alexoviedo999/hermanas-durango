@@ -29,11 +29,11 @@ jQuery('.totop').click(function(){
 				var $item = $(this),
 					multiplier_w = $item.attr('class').match(/item-w(\d)/),
 					multiplier_h = $item.attr('class').match(/item-h(\d)/),
-					width = multiplier_w ? columnWidth*multiplier_w[1]-4 : columnWidth-4,
-					height = multiplier_h ? columnWidth*multiplier_h[1]*0.5-4 : columnWidth*0.5-4;
+					width = multiplier_w ? columnWidth*multiplier_w[1]-4 : columnWidth-4
+					// height = multiplier_h ? columnWidth*multiplier_h[1]*0.5-4 : columnWidth*0.5-4;
 				$item.css({
-					width: width,
-					height: height
+					width: width
+					// height: height
 				});
 			});
 			return columnWidth;

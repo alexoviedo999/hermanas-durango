@@ -881,6 +881,7 @@ ul.social-links>li.pinterest-link:hover {
 	/* change duration value to whatever you like */ -webkit-transition-duration:0.8s;
 	-moz-transition-duration:0.8s;
 	transition-duration:0.8s;
+	overflow: auto;
 }
 .isotope {
 	-webkit-transition-property:height,width;
@@ -1510,7 +1511,7 @@ a:hover,a:focus {
 	float: left;
 	background: #17A781;
 	width: 20%;
-	height: 159px;
+	/*height: 159px;*/
 	margin: 0 2px 4px;
 }
 .example .item-w2 {
@@ -1518,11 +1519,11 @@ a:hover,a:focus {
 	background: #ED9393;
 }
 .example .item-h2 {
-	height: 322px;
+	/*height: 322px;*/
 	background: #7CB744;
 }
 .example .item-h3 {
-	height: 485px;
+	/*height: 485px;*/
 	background: #38B5E5;
 }
 .isotope .isotope-item {
@@ -1532,6 +1533,7 @@ a:hover,a:focus {
 	-webkit-transition-property: -webkit-transform, opacity;
 	-moz-transition-property: -moz-transform, opacity;
 	transition-property: transform, opacity;
+	overflow: auto;
 }
 
 
