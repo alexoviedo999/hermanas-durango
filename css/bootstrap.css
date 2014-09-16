@@ -5185,6 +5185,7 @@ input[type="submit"].btn.btn-mini {
 .modal-backdrop.fade.in {
   opacity: 0.8;
   filter: alpha(opacity=80);
+  -webkit-filter: blur(0px)!important;
 }
 
 .modal {

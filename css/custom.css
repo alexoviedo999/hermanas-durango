@@ -1537,6 +1537,22 @@ a:hover,a:focus {
 }
 
 
+body.modalBlur > *:not(.modal) {
+  -webkit-filter: blur(9px);
+  -moz-filter: blur(9px);
+  -o-filter: blur(9px);
+  -ms-filter: blur(9px);
+  filter: blur(9px);
+}
+
+.modal-backdrop.fade.in {
+	opacity: 0.3;
+	background-color: white;
+}
+
+
+
+
 
 
 /* ============ DEMO ============= */

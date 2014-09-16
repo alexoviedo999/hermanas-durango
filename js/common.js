@@ -1,13 +1,23 @@
 // menu
     $(document).ready(function() {
       $('.js-activated').dropdownHover();
+
+		 // Initial page load
+
+			$('#welcomeModal').modal('show')
+
+			$('.selected, .cat1, .cat2, .cat3').click(function() {
+				$('#welcomeModal').modal('hide')
+			});
     });
+
 // to top
 jQuery('.totop').click(function(){
 	jQuery('html, body').animate({ scrollTop: 0 }, "slow");
 });
 
 
+// Isotope 
 
 (function ($) {
 	var $container = $('.example'),
