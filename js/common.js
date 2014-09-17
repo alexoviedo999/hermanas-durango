@@ -3,12 +3,23 @@
       $('.js-activated').dropdownHover();
 
 		 // Initial page load
+		 	var $body = $('body')
+		 	var $welcomeModal = $('#welcomeModal')
 
-			$('#welcomeModal').modal('show')
+			$welcomeModal.modal('show')
 
-			$('.selected, .cat1, .cat2, .cat3').click(function() {
-				$('#welcomeModal').modal('hide')
+			$('.selected, .cat1, .cat2, .cat3, .modal-footer button').click(function() {
+				$welcomeModal.modal('hide');
+				$body.removeClass('modalBlur');
+
+
+				// $('#filter').on( 'click', 'a', function() {
+				//   var filterValue = $(this).attr('data-filter');
+				//   $container.isotope({ filter: filterValue });
+				// });
 			});
+
+
     });
 
 // to top
@@ -60,6 +71,7 @@ jQuery('.totop').click(function(){
 			});
 			});
 		};
+
 	isotope();
 	$(window).smartresize(isotope);
 }(jQuery));

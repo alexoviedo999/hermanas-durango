@@ -1,0 +1,6 @@
+{
+  "name": "hermanas-durango-2",
+  "root": "./",
+  "clean_urls": true,
+  "error_page": "error.html"
+}
