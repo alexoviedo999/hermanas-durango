@@ -8,15 +8,9 @@
 
 			$welcomeModal.modal('show')
 
-			$('.selected, .cat1, .cat2, .cat3, .modal-footer button').click(function() {
+			$('.selected, .cat1, .cat2, .cat3').click(function() {
 				$welcomeModal.modal('hide');
 				$body.removeClass('modalBlur');
-
-
-				// $('#filter').on( 'click', 'a', function() {
-				//   var filterValue = $(this).attr('data-filter');
-				//   $container.isotope({ filter: filterValue });
-				// });
 			});
 
 

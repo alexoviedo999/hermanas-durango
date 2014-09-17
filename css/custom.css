@@ -1,6 +1,6 @@
 /* * Custom CSS */
 body {
-	padding-top:110px;
+	padding-top:80px;
 	background:#f6f6f6;
 	font:17px/27px 'OpenSansLight',Arial,sans-serif;
 	color:#555;
@@ -116,7 +116,7 @@ a:focus {
 	outline-offset:-2px;
 }
 .navbar-inverse .navbar-inner {
-	min-height:110px;
+	min-height:80px;
 	background-color:#222;
 	background-image:none;
 	border-color:#222;
@@ -127,11 +127,11 @@ a:focus {
 }
 .navbar .nav {
 	float:right;
-	margin-top:30px;
+	margin-top:15px;
 	font-size:16px;
 }
 .navbar .brand {
-	margin-top:30px;
+	margin-top:15px;
 	font-size:30px;
 	text-transform:uppercase;
 	font-family:LatoBold;
@@ -1377,7 +1377,7 @@ select,textarea,input[type="text"],input[type="password"],input[type="datetime"]
 .introtitle {
 	background:#ff6666;
 	color:#fff;
-	padding:20px 30px 30px 30px;
+	padding: 10px 30px 15px 30px;
 	margin-bottom:30px;
 }
 .well {
