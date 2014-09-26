@@ -917,8 +917,29 @@ ul.social-links>li.pinterest-link:hover {
 	margin-bottom:20px;
 }
 #filter ul li .selected {
-	color: #ff6666 !Important;
+	color: #ff6666 !important;
+
 }
+
+#welcomeModal {
+	text-align: center;
+}
+
+#welcomeModal #filter ul {
+	/*margin-left: none !important;*/
+	display: inline-block;
+	/*margin-bottom: 10px;*/
+}
+
+#welcomeModal #filter ul li {
+	/*margin-left: none !important;*/
+	margin: 10px auto;
+/* margin: 10px; */
+	/*float: none !important;*/
+	/*margin-bottom: 10px;*/
+}
+
+
 /* MASONRY */
 .boxportfolio4 {
 	float:left;
