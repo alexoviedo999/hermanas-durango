@@ -1398,7 +1398,7 @@ select,textarea,input[type="text"],input[type="password"],input[type="datetime"]
 .introtitle {
 	background:#ff6666;
 	color:#fff;
-	padding: 10px 30px 15px 30px;
+	padding: 5px 30px 5px 30px;
 	margin-bottom:30px;
 }
 .well {

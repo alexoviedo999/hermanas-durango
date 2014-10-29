@@ -13,7 +13,6 @@
 				$body.removeClass('modalBlur');
 			});
 
-
     });
 
 // to top
@@ -56,13 +55,13 @@ jQuery('.totop').click(function(){
 		isotope = function () {
 			$container.imagesLoaded(function() {
 				$container.isotope({
-				resizable: false,
-				itemSelector: '.item',
-				masonry: {
-					columnWidth: colWidth(),
-					gutterWidth: 4
-				}
-			});
+					resizable: false,
+					itemSelector: '.item',
+					masonry: {
+						columnWidth: colWidth(),
+						gutterWidth: 4
+					}
+				});
 			});
 		};
 
